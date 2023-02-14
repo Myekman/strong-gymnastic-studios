@@ -19,7 +19,7 @@ body {
 #header-image {
     background: url(../images/pexels-andrea-piacquadio-3763695.jpg) no-repeat;
     width: 100%;
-    height: 600px;
+    height: 800px;
     opacity: 0.72;
 
 }
@@ -99,9 +99,42 @@ nav {
 
 /* Gymnastic Groups section */
 
-h1 {
+.Gymnastic-groups-heading h2 {
     font-family: Bebas neue, sans sans-serif;
-    font-size: 300%;
+    font-size:300%;
+    text-align: center;
+    margin-top: 30px;
 }
 
+.Gymnastic-groups-heading p {
+    text-align: center;
+}
+
+#Gymnastic-groups {
+    height: 600px;
+}
+
+#Men-image {
+    background: url(../images/pexels-andrea-piacquadio-3763118\ \(1\).jpg) no-repeat;
+    width: 33%;
+    float: left;
+    height: 500px;
+    background-position: center;
+}
+
+#Women-image {
+    background: url(../images/pexels-anastasiya-gepp-1984457.jpg) no-repeat;
+    width: 33%;
+    float: right;
+    height: 500px;
+    background-position: center;
+}
+
+#Kid-image {
+    background: url(../images/pexels-cottonbro-studio-9654742.jpg) no-repeat;
+    width: 33%;
+    margin: 0 auto;
+    height: 500px;
+    background-position: center;
+}
 
