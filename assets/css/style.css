@@ -19,7 +19,7 @@ body {
 #header-image {
     background: url(../images/pexels-andrea-piacquadio-3763695.jpg) no-repeat;
     width: 100%;
-    height: 800px;
+    height: 600px;
     opacity: 0.72;
 
 }
@@ -28,10 +28,11 @@ body {
 
 #logo {
     font-family: Bebas neue, sans serif;
-    text-align: center;
+    float: left;
     color: red;
     font-size: 500%;
     padding-top: 15px;
+    padding-left: 30px;
 }
 
 /* navigation links */
@@ -42,7 +43,7 @@ nav {
 }
 
 #menu {
-    font-size: 200%;
+    font-size: 160%;
     
 }
 
@@ -62,27 +63,36 @@ nav {
     
 }
 
-/* cover text header */
-
-div #covertext {
-    width: 400px;
-    height: 400px;
-}
+/*cover text header*/
 
 #cover-text {
-    font-size: 150%;
+    font-size: 120%;
     font-family: Bebas neue, sans-serif;
-    width: 250px;
-    height: 250px;
-    background: transparent;
-    border-style: double;
+    font-weight: 100;
+    width: 200px;
+    height: 200px;
+    color: red;
+    background-color: black;
     
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     
-    bottom: 30px;
-    right: 160px;
+    bottom: 180px;
+    left: 200px;
     position: absolute;
     
+}
+
+/* Style Join us button */
+
+#cover-text a {
+    font-size: 200%;
+    color: white;
+    font-family: Bitter, sans-serif;
+    
+}
+
+#cover-text a:hover {
+    border-style: inherit;
 }
