@@ -17,9 +17,10 @@ body {
 /* Style the heading image */ 
 
 #header-image {
-    background: url(../images/pexels-andrea-piacquadio-3763695.jpg) no-repeat;
+    background: url(../images/pexels-ivan-samkov-4164645\ \(1\).jpg) no-repeat;
+    background-position: center;
     width: 100%;
-    height: 800px;
+    height: 700px;
     opacity: 0.72;
 
 }
@@ -28,34 +29,35 @@ body {
 
 #logo {
     font-family: Bebas neue, sans serif;
-    float: left;
+    text-align: center;
+    margin-top: 80px;
     color: red;
-    font-size: 500%;
-    padding-top: 15px;
-    padding-left: 30px;
+    font-size: 700%;
+    
 }
 
 /* navigation links */
 
-nav {
-    padding: 40px;
-    
-}
-
 #menu {
-    font-size: 160%;
+    font-size: 200%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: pink;
+    opacity: 0.72;
+    width: 100%;
+    height: 60px;
     
 }
 
 #menu li {
     display: inline;
     margin-right: 50px;
-    text-align: center;
 
 }
 
 #menu a {
-    color: white;
+    color: black;
+
 }
 
 #menu a:hover {
@@ -63,38 +65,38 @@ nav {
     
 }
 
-/*cover text header*/
+/*cover text */
 
 #cover-text {
     font-size: 120%;
     font-family: Bebas neue, sans-serif;
     font-weight: 100;
-    width: 200px;
-    height: 200px;
-    color: red;
-    background-color: black;
+    width: 300px;
+    height: 150px;
+    color: black;
+    background-color: pink;
+    opacity: 0.72;
     
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     
-    bottom: 180px;
-    left: 200px;
+    bottom: 150px;
+    right: 600px;
     position: absolute;
     
 }
 
-/* Style Join us button */
-
 #cover-text a {
     font-size: 200%;
-    color: white;
+    color: black;
     font-family: Bitter, sans-serif;
+    text-align: center;
     
 }
 
 #cover-text a:hover {
-    border-style: inherit;
+    border-style: double;
 }
 
 /* Gymnastic Groups section */
@@ -111,7 +113,8 @@ nav {
 }
 
 #Gymnastic-groups {
-    height: 600px;
+    height: 800px;
+    background-color: pink;
 }
 
 #Men-image {
