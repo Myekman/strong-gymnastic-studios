@@ -43,8 +43,29 @@
         <div id="Kid-image"></div>
     </section>
 
-    <section>
-        Form
+    <section class="form-section">
+        <form class="join-us-form" method="POST" action="?">
+            <fieldset>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" class="text-input" required>
+            
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+
+                <label for="group">Choose Gymnastic Gruop</label>
+                <input type="email" id="email" name="gymnastic_gruop" class="text-input" list="age" required>
+
+                <datalist id="age">
+                <option value="Men">Male over 16</option>
+                <option value="Women">Female over 16</option>
+                <option value="Kids">Kids 6-9</option>
+                <option value="Kids">Kids 10-15</option>
+                </datalist>
+            </fieldset>
+        </form>    
     </section>
 
 <footer>
