@@ -150,8 +150,7 @@ body {
 
 /*style form here */
 
-.form-section {
-    background-color: lightgray;
+#form-section {
     height: 800px;
 }
 
@@ -182,6 +181,42 @@ h2 {
 
 label {
     margin: 5px 0 20px 10px;
+}
+
+/* classes.html */
+
+#read-about {
+height: 600px;
+}
+
+#mens-gymnastic {
+    padding-top: 40px;
+    width: 33%;
+    justify-content: flex-start;
+}
+
+#womans-gymnastic {
+    padding-top: 40px;
+    width: 33%;
+    justify-content: flex-end;
+}
+
+#kids-gymnastic {
+    padding-top: 40px;
+    width: 33%;
+    justify-content: center;
+}
+
+#read-about h2 {
+    color: #f5b09f;
+    font-family: Bebas neue, sans sans-serif;
+    font-size: 300%;
+    font-weight:100;
+}
+
+#read-about p {
+    color: white;
+    font-size: 100%;
 }
 
 /* style footer here */
