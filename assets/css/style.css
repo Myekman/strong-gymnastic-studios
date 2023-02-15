@@ -109,17 +109,19 @@ body {
     font-family: Bebas neue, sans sans-serif;
     font-size:300%;
     font-weight: 100;
+    color:#f5b09f;
     text-align: center;
     margin-top: 30px;
 }
 
-.Gymnastic-groups-heading p {
-    text-align: center;
+.Gymnastic-groups-heading hr {
+    width: 800px;
+    margin-top:0%;
 }
 
 #Gymnastic-groups {
-    height: 800px;
-    background-color: #f5b09f;
+    height: 700px;
+   
 }
 
 #Men-image {
@@ -167,6 +169,7 @@ h2 {
     font-family: Bebas neue, sans-serif;
     font-size: 200%;
     font-weight: 100;
+    color:#f5b09f;
 }
 
 
