@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@300&family=Lato:ital@1&family=Montserrat:wght@200&family=Oswald&display=swap');
 
 * {
-    margin-top: 0;
+    margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -79,7 +79,7 @@ body {
     background: transparent;
     border-style: double;
     
-    bottom: 150px;
+    bottom: 100px;
     right: 600px;
     position: absolute;
 
@@ -222,7 +222,7 @@ height: 600px;
 /* style footer here */
 
 footer {
-    height: 200px;
+    height: 400px;
     background-color: rgba(60, 60, 60, 0.6);
 }
 
@@ -233,12 +233,30 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin: 20px;
+    letter-spacing: 20px;
     
 }
 
 footer ul li i {
     font-size: 200%;
     color: #f5b09f;
+    margin-top: 40px;
 }
 
+hr {
+    width: 100%;
+}
+
+footer h2 {
+    font-size:500%;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 110%;
+    text-align: center;
+}
+
+#find-us {
+    line-height: 50px;
+}
