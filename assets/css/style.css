@@ -115,7 +115,7 @@ body {
 }
 
 #Gymnastic-groups {
-    height: 600px;
+    height: 1000px;
    
 }
 
@@ -123,15 +123,15 @@ body {
     background: url(../images/pexels-andrea-piacquadio-3763118\ \(1\).jpg) no-repeat;
     width: 33%;
     float: left;
-    height: 500px;
+    height: 800px;
     background-position: center;
 }
 
 #Women-image {
-    background: url(../images/pexels-anastasiya-gepp-1984457.jpg) no-repeat;
+    background: url(../images/pexels-cottonbro-studio-9654742.jpg) no-repeat;
     width: 33%;
     float: right;
-    height: 500px;
+    height: 800px;
     background-position: center;
 }
 
@@ -139,9 +139,10 @@ body {
     background: url(../images/pexels-cottonbro-studio-9654742.jpg) no-repeat;
     width: 33%;
     margin: 0 auto;
-    height: 500px;
+    height: 800px;
     background-position: center;
 }
+
 
 .read-more h2 {
     float: left;
@@ -149,7 +150,6 @@ body {
     line-height: 80px;
     background-color: rgba(60, 60, 60, 0.6);
     width: 100%;
-    
     
 }
 
@@ -172,7 +172,7 @@ body {
 
 #form-section {
     height: 800px;
-    margin-top: 10px;
+    margin-top: 20px;
     width: 50%;
 }
 
@@ -296,14 +296,72 @@ footer h3 {
     }
     
     .join-us-form {
-        margin: 50px;
-        padding: 100px;
-        color: #fff;
-        background-color: rgba(60, 60, 60, 0.6);
-        max-width: 100%;
-       
+       max-width: 100%;
     }
 
+    /* Gymnastic Groups section */
+
+#Gymnastic-groups {
+    height: 2500px;
+   
+}
+
+#Men-image {
+    width: 100%;
+
+}
+
+#Women-image {
+    width: 100%;
+  
+}
+
+#Kid-image {
+    width: 100%;
+    float: left;
+ 
+}
+
+
+.read-more h2 {
+    text-align: center;
+    width: 100%;
     
 }
 
+
+.read-more a {
+   float: left;
+
+}
+
+
+}
+
+/* for screen sizes from 950px and down */
+@media screen and (max-width: 950px) {
+
+/* Style the heading image */ 
+
+#header-image {
+    background-position: left;
+
+}
+
+/* Style the heading logo */ 
+
+#logo {
+    float: left;
+    margin-left: 10px;
+    font-size: 400%;
+    
+}
+
+/* navigation links */
+
+#menu {
+float: left;
+
+}
+
+}
