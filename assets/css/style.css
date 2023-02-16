@@ -115,7 +115,7 @@ body {
 }
 
 #Gymnastic-groups {
-    height: 1000px;
+    height: 900px;
    
 }
 
@@ -162,12 +162,11 @@ body {
 }
 
 
-/*style form here */
+/*style form-section here */
 
 #form-section {
     height: 800px;
     margin-top: 20px;
-    width: 50%;
 }
 
 .join-us-form {
@@ -175,8 +174,16 @@ body {
     padding: 100px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 600px;
-    justify-content: center;
+    width: 30%;
+
+}
+
+#circle {
+    width: 400px;
+    height: 400px;
+    clear: none;
+    background-color: #f5b09f;
+    border-radius: 50%;
 }
 
 h2 {
