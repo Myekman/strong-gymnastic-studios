@@ -317,9 +317,6 @@ footer ul li i {
     margin-top: 40px;
 }
 
-hr {
-    width: 100%;
-}
 
 footer h2 {
     font-size:500%;
@@ -422,6 +419,10 @@ font-size: 150%;
     margin-left: 20px;
 }
 
+.gymnastic-groups-heading h2 {
+    font-size: 300%;
+}
+
 
 /* classes.html */
 
@@ -455,6 +456,13 @@ font-size: 150%;
         height: 200px;
         
     }
+
+       /* footer */
+
+       footer h2 {
+        font-size: 400%;
+    }
+
     
 
 }
@@ -479,5 +487,63 @@ font-size: 150%;
     
     }
 
+       /* footer */
+
+       footer h2 {
+        font-size: 300%;
+    }
+
+
+}
+
+/* for screen sizes from 450px and down */
+@media screen and (max-width: 450px) {
+
+/* header */
+
+#logo {
+    font-size: 300%;
+}
+
+.gymnastic-groups-heading h2 {
+    font-size: 200%;
+}
+
+/*cover text */
+
+#cover-text {
+    font-size: 80%;
+
+    width: 200px;
+    height: 100px;
+    
+    bottom: 200px;
+    left: 20px;
+    position: absolute;
+
+    padding-top: 20px;
+    padding-left: 40px;
+    
+    
+}
+
+#cover-text a {
+    font-size: 150%;
+    color: lightgray;
+    font-family: Bitter, sans-serif;
+    margin: 0 auto;
+    text-transform: uppercase;
+    
+}
+
+/* footer */
+
+footer ul li i {
+    margin-top: 20px;
+}
+
+#find-us {
+    line-height: 40px;
+}
 
 }
