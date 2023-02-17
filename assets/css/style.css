@@ -79,7 +79,7 @@ body {
     background-color:  rgba(60, 60, 60, 0.6);
     border-style: double;
     
-    bottom: 200px;
+    bottom: 100px;
     left: 20px;
     position: absolute;
 
@@ -216,7 +216,7 @@ label {
     border-radius: 5px;
     padding: 20px 40px;
     text-align: center;
-    font-size: 200%;
+    font-size: 110%;
     background-color: #f5b09f;
     color: white;
     display: block;
@@ -273,7 +273,7 @@ margin: 0 40px;
 /* about.html */
 
 #about-us {
-    height: 1300px;
+    height: 1500px;
 
 }
 
@@ -284,7 +284,7 @@ margin: 0 40px;
     background-position: center;
     display: block;
     margin: 0 auto;
-    border-radius: 8%;
+    border-radius: 50%;
     
 }
 
@@ -300,6 +300,7 @@ margin: 0 40px;
     margin-top: 50px;
     margin-left: 80px;
     margin-right: 80px;
+    line-height: 1.8;
  
 }
 
@@ -346,6 +347,13 @@ footer h3 {
 /* screen size from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
+
+    /*header */
+
+    #cover-text {
+        bottom: 0;
+    }
+
     #form-section {
         height: 1400px;
         margin-top: 10px;
@@ -448,8 +456,7 @@ font-size: 150%;
         float: left;
         width: 80%;
         height: 200px;
-        
-           
+             
     }
     
     #womans-gymnastic {
@@ -468,9 +475,18 @@ font-size: 150%;
         
     }
 
-       /* footer */
+    /*about.html*/
 
-       footer h2 {
+    #about-us-image {
+        height: 600px;
+        width: 600px;
+        margin-top: 10px;
+        
+    }
+
+    /* footer */
+
+    footer h2 {
         font-size: 400%;
     }
 
@@ -502,6 +518,11 @@ font-size: 150%;
 
        footer h2 {
         font-size: 300%;
+    }
+
+    #about-us-text p {
+        margin-top: 5px;
+        font-size: 120%;
     }
 
 
@@ -540,10 +561,6 @@ font-size: 150%;
 
 #cover-text a {
     font-size: 150%;
-    color: lightgray;
-    font-family: Bitter, sans-serif;
-    margin: 0 auto;
-    text-transform: uppercase;
     
 }
 
@@ -555,6 +572,19 @@ footer ul li i {
 
 #find-us {
     line-height: 40px;
+}
+
+/* about.html */
+
+#about-us-image {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    
+}
+
+#about-us-text p {
+    line-height: 1.3;
 }
 
 }
