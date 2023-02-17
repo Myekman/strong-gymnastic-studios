@@ -105,7 +105,7 @@ body {
 
 /* Gymnastic Groups section */
 
-.Gymnastic-groups-heading h2 {
+.gymnastic-groups-heading h2 {
     font-family: "Bebas neue", "sans sans-serif";
     font-size:400%;
     font-weight: 100;
@@ -114,7 +114,7 @@ body {
     margin-top: 30px;
 }
 
-#Gymnastic-groups {
+#gymnastic-groups {
     height: 900px;
    
 }
@@ -296,6 +296,7 @@ margin: 0 40px;
 
 footer {
     height: 400px;
+    width: 100%;
     background-color: rgba(60, 60, 60, 0.6);
 }
 
@@ -346,46 +347,42 @@ footer h3 {
     
     .join-us-form {
        width: 100%;
+       margin-left: 0;
     }
 
-    #circle {
+    #circle-image {
         clear: both;
         margin: 0 auto;
     }
 
     /* Gymnastic Groups section */
 
-#Gymnastic-groups {
+#gymnastic-groups {
     height: 2500px;
    
 }
 
-#Men-image {
+#men-image {
     width: 100%;
 
 }
 
-#Women-image {
+#women-image {
     width: 100%;
   
 }
 
-#Kid-image {
+#kid-image {
     width: 100%;
     float: left;
  
 }
 
-
-.read-more h2 {
-    text-align: center;
-    width: 100%;
-    
-}
-
-
 .read-more a {
    float: left;
+   color: black;
+   margin-left: 5px;
+   font-size: 80%;
 
 }
 
@@ -407,7 +404,7 @@ footer h3 {
 
 #logo {
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 400%;
     
 }
@@ -415,9 +412,16 @@ footer h3 {
 /* navigation links header */
 
 #menu {
-float: left;
+font-size: 150%;
 
 }
+
+/* gymnastic groups section */
+
+.read-more h2 {
+    margin-left: 20px;
+}
+
 
 /* classes.html */
 
@@ -452,5 +456,28 @@ float: left;
         
     }
     
+
+}
+
+/* for screen sizes from 640px and down */
+@media screen and (max-width: 640px) {
+
+    /* header */
+
+    #logo {
+        margin: 0;
+        
+    }
+
+    #menu {
+        font-size: 120%;
+        
+        }
+
+    #menu li {
+        margin-right: 20px;
+    
+    }
+
 
 }
