@@ -79,7 +79,7 @@ body {
     background-color:  rgba(60, 60, 60, 0.6);
     border-style: double;
     
-    bottom: 100px;
+    bottom: 200px;
     left: 20px;
     position: absolute;
 
@@ -351,7 +351,7 @@ footer h3 {
     /*header */
 
     #cover-text {
-        bottom: 0;
+        bottom: 300px;
     }
 
     #form-section {
