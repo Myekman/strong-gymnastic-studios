@@ -567,6 +567,19 @@ font-size: 150%;
     
 }
 
+/* form */
+
+.join-us-form {
+    padding: 20px 50px 20px 5px;
+  
+}
+
+.join-us-button {
+    font-size: 85%;
+}
+
+
+
 /* footer */
 
 footer ul li i {
