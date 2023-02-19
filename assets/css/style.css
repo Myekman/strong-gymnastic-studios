@@ -79,7 +79,7 @@ body {
     background-color:  rgba(60, 60, 60, 0.6);
     border-style: double;
     
-    bottom: 200px;
+    bottom: 500px;
     left: 20px;
     position: absolute;
 
@@ -351,7 +351,7 @@ footer h3 {
     /*header */
 
     #cover-text {
-        bottom: 300px;
+        bottom: 400px;
     }
 
     #form-section {
@@ -520,6 +520,11 @@ font-size: 150%;
         font-size: 300%;
     }
 
+    #about-us-image {
+        width: 400px;
+        height: 400px;
+    }
+
     #about-us-text p {
         margin-top: 5px;
         font-size: 120%;
@@ -534,7 +539,7 @@ font-size: 150%;
 /* header */
 
 #logo {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .gymnastic-groups-heading h2 {
@@ -549,7 +554,7 @@ font-size: 150%;
     width: 200px;
     height: 100px;
     
-    bottom: 200px;
+    bottom: 300px;
     left: 20px;
     position: absolute;
 
@@ -577,14 +582,13 @@ footer ul li i {
 /* about.html */
 
 #about-us-image {
-    height: 300px;
     width: 300px;
-    margin-top: 10px;
-    
+    height: 300px;
 }
 
 #about-us-text p {
-    line-height: 1.3;
+    line-height: 1.2;
+    
 }
 
 }
