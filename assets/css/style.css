@@ -603,8 +603,10 @@ footer ul li i {
 }
 
 #about-us-text p {
-    line-height: 1.2;
+    margin-left: 10px;
+    margin-right: 10px;
     
 }
+
 
 }
