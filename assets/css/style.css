@@ -270,13 +270,26 @@ margin: 0 40px;
     font-weight:100;
 }
 
+#read-about h3 {
+    Font-size: 110%;
+    color: #f5b09C;
+}
+
 #read-about p {
     color: #ffffff;
     font-size: 100%;
 }
 
 #info-times {
-    height: 600px;
+    height: 1200px;
+
+}
+
+#info-times h2 {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 200%;
+
 }
 
 #know-more {
@@ -291,6 +304,49 @@ margin: 0 40px;
 #know-more p {
     padding: 5px 20px 5px 20px;
     
+}
+
+#classes-sign-up {
+    height: 100px;
+    background-color: #8fa2a2;
+}
+
+#classes-sign-up a {
+    font-size: 150%;
+    color: #EBEBEB;
+    margin-left: 20px;
+}
+
+#classes-sign-up a:hover {
+    border-style: double;
+}
+
+#practice-times-artistic {
+    padding: 100 px 50px 20px 20px;
+    height: 600px;
+
+}
+
+table {
+	width: 70%;
+    margin-left: 5px;
+    margin-top: 100px;
+    background-color: #EBEBEB;
+}
+
+tr {
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+tr, th, td {
+	text-align: center;
+}
+
+th, td {
+	border: 1px solid #3c3c3c;
+	padding: 5px;
 }
 
 /* about.html */
@@ -559,6 +615,12 @@ font-size: 150%;
         bottom: 100px;
     }
 
+    /* classes.html table */
+
+    th, td {
+        padding: 7px;
+    }
+
 
 }
 
@@ -646,6 +708,18 @@ footer ul li i {
 #kids-gymnastic p {
     font-size: 80%;
 }
+
+#know-more {
+    height: 90px;
+    
+}
+
+  /* table */
+
+  th, td {
+    padding: 10px;
+}
+
 
 
 }
