@@ -17,9 +17,11 @@ In the form there are a welcoming message to beginners to book a free trial.
 
 ## Features
 
-[**Header and Navigationbar**]
+[Header and Navigationbar](#Header-navigationbar)
 
-(![Alternate Text](/assets/images/header.png)
+#Header-navigationbar
+
+![Alternate Text](/assets/images/header.png)
 
 
 1. *Contact* - Takes the reader to the footer where contact information is available.
@@ -30,5 +32,13 @@ In the form there are a welcoming message to beginners to book a free trial.
 
 4. *Sign upp here!* - Takes you directly to the form section in the same page.
 
-5. *Read More* - The home page contains 3 pictures that announce that gymnastics is available for both men, women and children. The pictures also have links that takes the reader to more information about the classes. (to same place as "Classes" link).)
+[Gymnastic Groups section](#Gymnastic-group-section)
+
+#Gymnastic-group-section
+
+This section of the home page contains 3 pictures that announce that gymnastics is available for both men, women and children. The pictures also have links #Read More", that takes the readers to more information about the different classes. (to same place as "Classes" link in nav bar).
+
+[Form section]
+
+
 
