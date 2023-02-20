@@ -31,7 +31,7 @@ body {
     font-family: "Bebas neue", "sans serif";
     text-align: center;
     margin-top: 10px;
-    color: #f5b09f;
+    color: #f5b09C;
     font-size: 600%;
     font-weight: 100;
     
@@ -43,7 +43,7 @@ body {
     font-size: 200%;
     text-align: center;
     padding-top: 20px;
-    background-color: lightgray;
+    background-color: #EBEBEB;
     width: 100%;
     height: 60px;
     
@@ -72,11 +72,12 @@ body {
     font-size: 120%;
     font-family: "Bebas neue", "sans-serif";
     font-weight: 100;
-    color: #f5b09f;
+    color: #f5b09C;
 
     width: 300px;
     height: 200px;
-    background-color:  rgba(60, 60, 60, 0.6);
+    background-color: #3C3C3C;
+    opacity: 0.9;
     border-style: double;
     
     bottom: 300px;
@@ -91,7 +92,7 @@ body {
 
 #cover-text a {
     font-size: 150%;
-    color: lightgray;
+    color: #EBEBEB;
     font-family: Bitter, sans-serif;
     margin: 0 auto;
     text-transform: uppercase;
@@ -109,7 +110,7 @@ body {
     font-family: "Bebas neue", "sans sans-serif";
     font-size:400%;
     font-weight: 100;
-    color:#f5b09f;
+    color:#f5b09C;
     text-align: center;
     margin-top: 30px;
 }
@@ -146,14 +147,15 @@ body {
 .read-more {
     justify-content: center;
     align-items: flex-end;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #3C3C3C;
+    opacity: 0.72;
     width: 100%;
     font-size: 200%;
     line-height: 80px;
 }
 
 .read-more a {
-    color: lightgray;
+    color: #EBEBEB;
     text-transform: uppercase;
 }
 
@@ -173,7 +175,7 @@ body {
     margin: 50px;
     padding: 100px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #8fa2a2;
     width: 30%;
     float: left;
 
@@ -197,13 +199,13 @@ h2 {
     font-family: "Bebas neue", "sans-serif";
     font-size: 200%;
     font-weight: 100;
-    color:#f5b09f;
+    color: #f5b09c;
 }
 
 .text-input {
     height: 30px;
     width: 50%;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 5px 0 20px 10px;
 }
 
@@ -217,8 +219,8 @@ label {
     padding: 20px 40px;
     text-align: center;
     font-size: 110%;
-    background-color: #f5b09f;
-    color: white;
+    background-color: #f5b09c;
+    color: #EBEBEB;
     display: block;
 }
 
@@ -236,7 +238,8 @@ margin: 0 40px;
     width: 20%;
     height: 400px;
     float: left;
-    background-color: rgba(60, 60, 60, 0.9);
+    background-color: #3c3c3c;
+    opacity: 0.9;
        
 }
 
@@ -245,7 +248,8 @@ margin: 0 40px;
     width: 20%;
     height: 400px;
     float: right;
-    background-color: rgba(60, 60, 60, 0.9);
+    background-color: #3c3c3c;
+    opacity: 0.9;
     
 }
 
@@ -254,20 +258,25 @@ margin: 0 40px;
     width: 20%;
     margin: 0 auto;
     height: 400px;
-    background-color: rgba(60, 60, 60, 0.9);
+    background-color: #3c3c3c;
+    opacity: 0.9;
     
 }
 
 #read-about h2 {
-    color: #f5b09f;
+    color: #f5b09c;
     font-family: "Bebas neue", "sans-serif";
     font-size: 200%;
     font-weight:100;
 }
 
 #read-about p {
-    color: white;
+    color: #ffffff;
     font-size: 100%;
+}
+
+#info-times {
+    height: 600px;
 }
 
 /* about.html */
@@ -309,7 +318,8 @@ margin: 0 40px;
 footer {
     height: 400px;
     width: 100%;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #8fa2a2;
+
 }
 
 footer ul {
@@ -325,7 +335,7 @@ footer ul li {
 
 footer ul li i {
     font-size: 200%;
-    color: #f5b09f;
+    color: #f5b09c;
     margin-top: 40px;
 }
 
