@@ -20,24 +20,11 @@ In the form there are a welcoming message to beginners to book a free trial.
 ### List of features:
 
 * [Header and Navigationbar](#header-navigationbar "Header and Navigationbar")
-<br>
-
-
 * [Gymnastic Groups](#Gymnastic-group-section "Gymnastic Groups")
-<br>
-
 * [Form](#form-section "Form")
-<br>
-
 * [Classes](#classes-section "Classes")
-<br>
-
 * [About us](#about-us-section "About us")
-<br>
-
 * [Footer](#footer-section "Footer")
-<br>
-
 * [Form Dump Page](#form-dump "Form Dump Page")
 
 ### UX/UI 
@@ -46,6 +33,8 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [User Stories](#user-stories "User Stories")
 * [Requirements](requirements "Requirements")
 * [Design](design "Design")
+* [Typography](typography "Typography")
+* [Images](images "Images")
 
 ## Site Goals 
 
@@ -74,10 +63,26 @@ Required technologies: HTML, CSS.
 
 ## Design 
 
+* Since this is the first webbsite i ever done, the structure and design are inspired of the Love Running Project. 
+*The color palette was at first inspired of the pictures i found at pexels.com. I know i wanted something pink and light from the start. 
+
+### Color Palette
+
+![IMG](/assets/images/hex-palette3.png)
+
+* The Color Palette was made using [Coolors](https://coolors.co/413c58-a3c4bc-bfd7b5-ecbaf8-ffffff).
+
+## Typography
 
 
+* The typograpfy was imported from [Google fonts](https://fonts.google.com/) and pasted in style.css file. 
+* For the headings i use [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas+neue) (Regular 400), with a fallback of Sans-Serif.
+* For the paragraphs and links i use [Bitter](https://fonts.google.com/specimen/Bitter) (Light 300),  with a fallback of Sans-Serif. 
 
+## Images 
 
+*I chose the images for the clean feel. As they look clean and contain few colors them are easy to match with the rest of the design.
+* Size og images are customized to fit the rest of the page structure. 
 
 
 ## Header and Navigationbar
@@ -115,7 +120,7 @@ Choose which class you are interested in or choose the opption of free trial.
 
 ## Classes
 
-![IMG](/assets/images/classes.jpg)
+![IMG](/assets/images/classes1.jpg)
 
 *This section contains shortly information about what different classes they offer to Men, Women and Kids. 
 *For they who want more information, are invited to call/email or sign upp via form. 
