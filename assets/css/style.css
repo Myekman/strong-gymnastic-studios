@@ -282,6 +282,7 @@ margin: 0 40px;
 
 #info-times {
     height: 2000px;
+    background-color: #EBEBEB;
 
 }
 
@@ -330,7 +331,8 @@ table {
 	width: 70%;
     margin-left: 5px;
     margin-top: 100px;
-    background-color: #EBEBEB;
+    background-color: #8fa2a2;
+    opacity: 0.9;
 }
 
 tr {
@@ -694,6 +696,10 @@ footer ul li i {
 }
 
 /* classes.html */
+
+#info-times {
+    height: 3100px;
+}
 
 #mens-gymnastic p {
     font-size: 80%;
