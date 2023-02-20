@@ -17,27 +17,70 @@ In the form there are a welcoming message to beginners to book a free trial.
 
 # Table of content
 
--[Header and Navigationbar](#Header-navigationbar)
+### List of features:
+
+* [Header and Navigationbar](#header-navigationbar "Header and Navigationbar")
 <br>
 
--[Gymnastic Groups](#Gymnastic-group-section)
+
+* [Gymnastic Groups](#Gymnastic-group-section "Gymnastic Groups")
 <br>
 
--[Form](#form-section)
+* [Form](#form-section "Form")
 <br>
 
--[Classes](#classes-section)
+* [Classes](#classes-section "Classes")
 <br>
 
--[About us](#about-us-section)
+* [About us](#about-us-section "About us")
 <br>
 
--[Footer](#footer-section)
+* [Footer](#footer-section "Footer")
 <br>
 
--[Form Dump Page](#form-dump)
+* [Form Dump Page](#form-dump "Form Dump Page")
 
-# Header and Navigationbar
+### UX/UI 
+
+* [Site Goals](#site-goals "Site Goals")
+* [User Stories](#user-stories "User Stories")
+* [Requirements](requirements "Requirements")
+* [Design](design "Design")
+
+## Site Goals 
+
+The goal of the webbsite is to attract more gymnasts to join. It Should be easy to navigate between different pages and the following questions must be clear:
+* How to join?
+* I have more questions, how to get in touch?
+* Who can join?
+* Im a beginner, can i join?
+
+## User Stories
+
+As a visitor on site i want to:
+
+* Find information about the operation.
+* Find information where it is located.
+* Find information of tel and email. 
+* Find information on how to get in touch.
+* Find information about what classes they offer.
+* Ask for someone to contact me via the contact form.
+
+## Requirements
+
+A static responsive website that incorporates the technologies I have learned so far that contains some advanced functionality. The development process needs to be well documented through a version controls system such as GitHub.
+
+Required technologies: HTML, CSS.
+
+## Design 
+
+
+
+
+
+
+
+## Header and Navigationbar
 
 ![IMG](/assets/images/header.png)
 
@@ -55,7 +98,7 @@ The Header contains a background-image of gymnastic rings, to display the feelin
 * *Sign upp here!* - Takes you directly to the form section in the same page.
 
 
-# Gymnastic Groups
+## Gymnastic Groups
 
 ![IMG](/assets/images/Gymnasticsection.jpg)
 
@@ -63,14 +106,14 @@ The Header contains a background-image of gymnastic rings, to display the feelin
 * The section also have links "Read More", that takes the readers to more information about the different classes. (to same place as "Classes" link in nav bar).
 
 
-# Form 
+## Form 
 
 ![IMG](/assets/images/form-section.jpg)
 
 * In this section the opptions is clear and easy to follow. 
 Choose which class you are interested in or choose the opption of free trial. 
 
-# Classes
+## Classes
 
 ![IMG](/assets/images/classes.jpg)
 
@@ -79,21 +122,21 @@ Choose which class you are interested in or choose the opption of free trial.
 
 add image and text
 
-# About us
+## About us
 
 ![IMG](/assets/images/about-us.jpg)
 
 * This section contains an image of Stockholm with the same height and width, and with border-radius of 50% to get to round image. 
 * A paragraph telling the story behind Stong Gymnastic Studios.
 
-# Footer 
+## Footer 
 
 ![IMG](/assets/images/footer.jpg)
 
 * The Footer has the same logo as the header to keep the feeling over the website. 
 * Contact information and links to social media. 
 
-# Form Dump Page 
+## Form Dump Page 
 
 The Form submittion page is this one [Form Dump](https://formdump.codeinstitute.net/). 
 
