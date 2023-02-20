@@ -279,6 +279,20 @@ margin: 0 40px;
     height: 600px;
 }
 
+#know-more {
+    background-color: #8fa2a2;
+    color:#EBEBEB;
+    font-size: 110%;
+    height: 80px;
+    width: 100%;
+    
+}
+
+#know-more p {
+    padding: 5px 20px 5px 20px;
+    
+}
+
 /* about.html */
 
 #about-us {
