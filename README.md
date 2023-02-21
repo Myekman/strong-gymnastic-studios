@@ -19,13 +19,14 @@ In the form there are a welcoming message to beginners to book a free trial.
 
 ### List of features:
 
-* [Header and Navigationbar](#header-navigationbar "Header and Navigationbar")
-* [Gymnastic Groups](#Gymnastic-group-section "Gymnastic Groups")
-* [Form](#form-section "Form")
-* [Classes](#classes-section "Classes")
-* [About us](#about-us-section "About us")
-* [Footer](#footer-section "Footer")
-* [Form Dump Page](#form-dump "Form Dump Page")
+* [Header](#header "Header")
+* [Navigationbar](#navigationbar "Navigationbar")
+* [Gymnastic Groups](#Gymnastic-groups "Gymnastic Groups")
+* [Form](#form "Form")
+* [Classes](#classes "Classes")
+* [About us](#about-us "About us")
+* [Footer](#footer "Footer")
+* [Form Dump Page](#form-dump-page "Form Dump Page")
 
 ### Features left to implement:
 
@@ -37,18 +38,38 @@ In the form there are a welcoming message to beginners to book a free trial.
 
 * [Site Goals](#site-goals "Site Goals")
 * [User Stories](#user-stories "User Stories")
-* [Requirements](requirements "Requirements")
-* [Design](design "Design")
-* [Typography](typography "Typography")
-* [Images](images "Images")
+* [Requirements](#requirements "Requirements")
+* [Design](#design "Design")
+* [Typography](#typography "Typography")
+* [Images](#images "Images")
 
 ### Technologies used:
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 
-### Testing: 
+### Testing, Issues and Solutions: 
 
-* [HTML/CSS Validator](html-validator "HTML")
+* [Testing](#testing "Testing")
+* [HTML Validator](#html "HTML")
+* [CSS Validator](#css "CSS")
+* [Lighthouse](#lighthouse "Lighthouse")
+
+### Testing 
+
+Here is a list of issues discovered and how they were solved. 
+
+1. The link to get to form section didnt work. 
+*  Solution: Addthe"#" to a href=#form-section. 
+2. Images in gymnastic studios section disapered when i styled the page to smaller screen sizes. 
+*  Solution: I set the float to left for the image in the middle from margin: 0 auto. 
+3. Images was shown just at its bottom.
+*  Solution: Set the background-position to center. 
+4. The contet i wanted to add above images in gymnastic gruops section didnt show up.
+*  Solution: Change to right section id. 
+5. Poor performance on smaller screens.
+* Solution: Fixed by using by media queries. 
+6. Apart from these problems i have had a ton of small ones. It can be for example that contet not fall in the right place i wish for.
+* It has been solved with attribute of example: padding, margin, float, text-align.
 
 ### HTML 
 
@@ -61,13 +82,17 @@ In the form there are a welcoming message to beginners to book a free trial.
 * No errors were showed when passing thrue HTML [3Wc Validator](https://jigsaw.w3.org/css-validator/). 
 * All three pages was tested and all passed validator. 
 
-CSS
+### CSS
 
-![IMG](/assets/images/W3C-validator.png)
+![IMG](/assets/images/W3C-validator1.png)
 
 * No errors were showed when passing thrue CSS [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
 
-Lighthouse 
+### Lighthouse 
+
+![IMG](/assets/images/lighthouse1.png)
+
+* The results of Lighthouse testing above.
 
 ## Site Goals 
 
@@ -118,13 +143,15 @@ Required technologies: HTML, CSS.
 * Size og images are customized to fit the rest of the page structure. 
 
 
-## Header and Navigationbar
+## Header 
 
 ![IMG](/assets/images/header.png)
 
 The Header contains a background-image of gymnastic rings, to display the feeling what this site is about. 
 
-**Links**
+ ### Navigationbar
+
+ The header contains a navigationbar in top of page.
 
 
 * *Contact* - Takes the reader to the footer where contact information is available.
