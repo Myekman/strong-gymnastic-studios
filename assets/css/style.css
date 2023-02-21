@@ -616,12 +616,6 @@ font-size: 150%;
         bottom: 100px;
     }
 
-    /* classes.html table */
-
-    th, td {
-        padding: 7px;
-    }
-
 
 }
 
@@ -721,10 +715,8 @@ footer ul li i {
 
   /* table */
 
-  th, td {
-    padding: 10px;
+  tr {
+	grid-template-columns: 2fr 1fr 1fr;
 }
-
-
 
 }
