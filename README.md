@@ -27,7 +27,13 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [Footer](#footer-section "Footer")
 * [Form Dump Page](#form-dump "Form Dump Page")
 
-### UX/UI 
+### Features left to implement:
+
+1. More information about price and membership will be added in a table.
+2. The Free Trial will be possible to book an appointment for directly on the page. 
+3.  A page in site will be added to upload comming event and happenings. 
+
+### UX/UI:
 
 * [Site Goals](#site-goals "Site Goals")
 * [User Stories](#user-stories "User Stories")
@@ -35,6 +41,33 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [Design](design "Design")
 * [Typography](typography "Typography")
 * [Images](images "Images")
+
+### Technologies used:
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+
+### Testing: 
+
+* [HTML/CSS Validator](html-validator "HTML")
+
+### HTML 
+
+* Testing of the site has been done several times during this project. To ensure that the page is suitable for different screen sizes, I have used Google DevTools and Also with: [Am I Responsive](https://ui.dev/amiresponsive).
+
+* Test has been conducted using Google Chrome, Mozilla Firefox and Safari.
+
+![IMG](/assets/images/html-validate.png)
+
+* No errors were showed when passing thrue HTML [3Wc Validator](https://jigsaw.w3.org/css-validator/). 
+* All three pages was tested and all passed validator. 
+
+CSS
+
+![IMG](/assets/images/W3C-validator.png)
+
+* No errors were showed when passing thrue CSS [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
+
+Lighthouse 
 
 ## Site Goals 
 
@@ -122,14 +155,20 @@ Choose which class you are interested in or choose the opption of free trial.
 
 ![IMG](/assets/images/classes1.jpg)
 
-*This section contains shortly information about what different classes they offer to Men, Women and Kids. 
-*For they who want more information, are invited to call/email or sign upp via form. 
+* This section contains shortly information about what different classes they offer to Men, Women and Kids. 
 
-add image and text
+### Classes Practice Times:
+
+![IMG](/assets/images/practice.jpg)
+![IMG](/assets/images/rythmic.jpg)
+![IMG](/assets/images/team.jpg)
+
+* For they who want more information, are invited to call/email or sign upp via form. 
+* This section have 3 Tables of practice times. One for Artistic Gymnastic for Men and Woman. Second one for Rythmic Gymnasic for Woman and Yought. The the third one for Team Gymnastic. In this Men & Woman share the same practice times and Kids & Yought share same times. 
 
 ## About us
 
-![IMG](/assets/images/about-us.jpg)
+![IMG](/assets/images/about-us1.jpg)
 
 * This section contains an image of Stockholm with the same height and width, and with border-radius of 50% to get to round image. 
 * A paragraph telling the story behind Stong Gymnastic Studios.
