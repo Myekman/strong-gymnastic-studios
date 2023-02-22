@@ -56,6 +56,9 @@ In the form there are a welcoming message to beginners to book a free trial.
 ### Develop and Deployment
 
 * [Deployment](#deployment "Deployment")
+* [Content](#content "Content")
+* [Media](#media "Media")
+* [Credits](#credits "Credits")
 
 ## Site Goals 
 
@@ -107,7 +110,7 @@ Required technologies: HTML, CSS.
 
 ## Features 
 
-### Comming Features:
+### Comming Features
 #### Left to implement:
 
 1. More information about price and membership will be added in a table.
@@ -291,7 +294,7 @@ http://ami.responsivedesign.is/
 
 Best Regards 
 
-[back to top](#Strong-Gymnastic-Studios "Strong Gymnastic Studios")
+[back to top](#strong-gymnastic-studio "Strong Gymnasic Studio")
 
 
 
