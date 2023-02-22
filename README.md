@@ -9,10 +9,12 @@ A live version of the webbsite can be found here! [Strong Gymnastic Studios](htt
 
 # The purpose with the webbsite
 
-The website is primarily created to attract more gymnasts to join. Therefore, there are clear choices on the start page with navigation links that take you directly to: Contact information, Sign up form or to sections where you can read more about the oparation and different classes.
+The website is primarily created to attract more people to join. Therefore, there are clear choices on the start page with navigation links that takes the reader directly to: 
+Contact information, Sign up form or to sections where you can read more about the oparation and different classes. The wish is to inspire curiosity and for the reader to make contact. 
 
 The navigation links is constant through all pages to easily navigate in the website.
 
+The feeling on the webbsite should be that the studio is for everyone!
 In the form there are a welcoming message to beginners to book a free trial. 
 
 # Table of content
@@ -47,52 +49,17 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 
-### Testing, Issues and Solutions: 
+### Testing
 
 * [Testing](#testing "Testing")
+* [Manual Testning](#manual-testing "Manual Testing")
 * [HTML Validator](#html "HTML")
 * [CSS Validator](#css "CSS")
 * [Lighthouse](#lighthouse "Lighthouse")
 
-### Testing 
+### Develop and Deployment
 
-Here is a list of issues discovered and how they were solved. 
-
-1. The link to get to form section didnt work. 
-*  Solution: Addthe"#" to a href=#form-section. 
-2. Images in gymnastic studios section disapered when i styled the page to smaller screen sizes. 
-*  Solution: I set the float to left for the image in the middle from margin: 0 auto. 
-3. Images was shown just at its bottom.
-*  Solution: Set the background-position to center. 
-4. The contet i wanted to add above images in gymnastic gruops section didnt show up.
-*  Solution: Change to right section id. 
-5. Poor performance on smaller screens.
-* Solution: Fixed by using by media queries. 
-6. Apart from these problems i have had a ton of small ones. It can be for example that contet not fall in the right place i wish for.
-* It has been solved with attribute of example: padding, margin, float, text-align.
-
-### HTML 
-
-* Testing of the site has been done several times during this project. To ensure that the page is suitable for different screen sizes, I have used Google DevTools and Also with: [Am I Responsive](https://ui.dev/amiresponsive).
-
-* Test has been conducted using Google Chrome, Mozilla Firefox and Safari.
-
-![IMG](/assets/images/html-validate.png)
-
-* No errors were showed when passing thrue HTML [3Wc Validator](https://jigsaw.w3.org/css-validator/). 
-* All three pages was tested and all passed validator. 
-
-### CSS
-
-![IMG](/assets/images/W3C-validator1.png)
-
-* No errors were showed when passing thrue CSS [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
-
-### Lighthouse 
-
-![IMG](/assets/images/lighthouse1.png)
-
-* The results of Lighthouse testing above.
+* [Deployment](#deployment "Deployment")
 
 ## Site Goals 
 
@@ -140,7 +107,7 @@ Required technologies: HTML, CSS.
 ## Images 
 
 *I chose the images for the clean feel. As they look clean and contain few colors them are easy to match with the rest of the design.
-* Size og images are customized to fit the rest of the page structure. 
+* Size of images are customized to fit the rest of the page structure. 
 
 
 ## Header 
@@ -180,9 +147,9 @@ Choose which class you are interested in or choose the opption of free trial.
 
 ## Classes
 
-![IMG](/assets/images/classes1.jpg)
+![IMG](/assets/images/classes2.jpg)
 
-* This section contains shortly information about what different classes they offer to Men, Women and Kids. 
+* This section contains shortly information about what different classes they offer to Men, Women, Yought and Kids. 
 
 ### Classes Practice Times:
 
@@ -190,8 +157,12 @@ Choose which class you are interested in or choose the opption of free trial.
 ![IMG](/assets/images/rythmic.jpg)
 ![IMG](/assets/images/team.jpg)
 
-* For they who want more information, are invited to call/email or sign upp via form. 
-* This section have 3 Tables of practice times. One for Artistic Gymnastic for Men and Woman. Second one for Rythmic Gymnasic for Woman and Yought. The the third one for Team Gymnastic. In this Men & Woman share the same practice times and Kids & Yought share same times. 
+* For they who want more information, are invited to call/email or sign upp via form.
+
+This section have 3 Tables of practice times. 
+* One for Artistic Gymnastic for Men and Woman. 
+* Second one for Rythmic Gymnasic for Woman and Yought. 
+* The the third one for Team Gymnastic. In this Men & Woman share the same practice times and Kids & Yought share same times. 
 
 ## About us
 
@@ -212,6 +183,77 @@ Choose which class you are interested in or choose the opption of free trial.
 The Form submittion page is this one [Form Dump](https://formdump.codeinstitute.net/). 
 
 
+## Testing 
+
+
+Here is a list of issues discovered and how they were solved. 
+
+1. The link to get to form section didnt work. 
+*  Solution: Addthe"#" to a href=#form-section. 
+2. Images in gymnastic studios section disapered when i styled the page to smaller screen sizes. 
+*  Solution: I set the float to left for the image in the middle from margin: 0 auto. 
+3. Images was shown just at its bottom.
+*  Solution: Set the background-position to center. 
+4. The contet i wanted to add above images in gymnastic gruops section didnt show up.
+*  Solution: Change to right section id. 
+5. Poor performance on smaller screens.
+* Solution: Fixed by using by media queries. 
+6. The circle image beside the form that is floated to left, didn't appear to the right as att wished. 
+* Solution: set the clear attribute to none. 
+7. Apart from these problems i have had a ton of small ones. It can be for example that contet not fall in the right place i wish for.
+* It has been solved with attribute of example: padding, margin, float, text-align.
+
+## Manual Testing 
+
+### Home navigation bar:
+They all works like expected: When click on the links it takes me to 
+home, about us, classes.
+
+### More links & social media links: 
+* "Sign upp!" link in header works as expected, it takes me to form.
+* "Read more" link in gymnastic groups section works as expected, it takes me to classes.html page. 
+* Social media links in footer works like expected, takes me to facebook and instagram when clicked. 
+
+### Form submit button:
+Workes as expected, the form sucessfully submitted on click and take me to formdump page. 
+
+## HTML 
+
+* Testing of the site has been done several times during this project. To ensure that the page is suitable for different screen sizes, I have used Google DevTools and Also with: [Am I Responsive](https://ui.dev/amiresponsive).
+
+* Test has been conducted using Google Chrome, Mozilla Firefox and Safari.
+
+![IMG](/assets/images/html-validate.png)
+
+* No errors were showed when passing thrue HTML [3Wc Validator](https://jigsaw.w3.org/css-validator/). 
+* All three pages was tested and all passed validator. 
+
+## CSS
+
+![IMG](/assets/images/W3C-validator1.png)
+
+* No errors were showed when passing thrue CSS [Jigsaw Validator](https://jigsaw.w3.org/css-validator/). 
+
+## Lighthouse 
+
+![IMG](/assets/images/lighthouse1.png)
+
+* The results of Lighthouse testing above.
+
+## Deployment 
+
+The development environment used for this webbsite was GitPod. In GitPod a template enviorment was used provided by Code Institute.
+
+Regular commits and pushes to GitHub have been implemented to save through  development.
+
+The procedure for deployment was followed by the video from Love Running. 
+
+1. Log into GitHub.
+2. Find the Repository that you want to deploy live.
+3. At the top of the repository, select Settings.
+4. Click "Pages" to the left in menu. 
+5. The ”Source” should be "deploy from branch". Then choose Branch as ”main” and "root" as folder and click ”Save”.
+6. The website will deploy and the link to live webbsite will be ready when refresh the page. 
 
 
 
