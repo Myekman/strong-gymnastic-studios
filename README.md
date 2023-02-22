@@ -21,6 +21,7 @@ In the form there are a welcoming message to beginners to book a free trial.
 
 ### List of features:
 
+* [Comming Features](comming-features "Comming Features")
 * [Header](#header "Header")
 * [Navigationbar](#navigationbar "Navigationbar")
 * [Gymnastic Groups](#Gymnastic-groups "Gymnastic Groups")
@@ -30,11 +31,6 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [Footer](#footer "Footer")
 * [Form Dump Page](#form-dump-page "Form Dump Page")
 
-### Features left to implement:
-
-1. More information about price and membership will be added in a table.
-2. The Free Trial will be possible to book an appointment for directly on the page. 
-3.  A page in site will be added to upload comming event and happenings. 
 
 ### UX/UI:
 
@@ -109,6 +105,15 @@ Required technologies: HTML, CSS.
 *I chose the images for the clean feel. As they look clean and contain few colors them are easy to match with the rest of the design.
 * Size of images are customized to fit the rest of the page structure. 
 
+## Features 
+
+### Comming Features:
+#### Left to implement:
+
+1. More information about price and membership will be added in a table.
+2. The Free Trial will be possible to book an appointment for directly on the page. 
+3.  A page will be added to upload comming event and happenings. 
+4. Images of coaches will be added to About us section to get more invited and personal feeling.
 
 ## Header 
 
@@ -203,6 +208,10 @@ Here is a list of issues discovered and how they were solved.
 7. Apart from these problems i have had a ton of small ones. It can be for example that contet not fall in the right place i wish for.
 * It has been solved with attribute of example: padding, margin, float, text-align.
 
+### Unfixed bugs 
+
+All the bugs were fixed and moved to the section Testing.
+
 ## Manual Testing 
 
 ### Home navigation bar:
@@ -254,6 +263,35 @@ The procedure for deployment was followed by the video from Love Running.
 4. Click "Pages" to the left in menu. 
 5. The ”Source” should be "deploy from branch". Then choose Branch as ”main” and "root" as folder and click ”Save”.
 6. The website will deploy and the link to live webbsite will be ready when refresh the page. 
+
+## Content
+* All text content on this site has been produced by the author of the project and is fictional. There is no Strong Gymnastic Studio in real life. 
+* All CSS and HTML is ispired of the Love Running project, HTML and CSS Essentials and from [w3schools](https://www.w3schools.com/tags/tag_em.asp).  
+* The social media icons in the footer was taken from [Font Awesome](https://fontawesome.com/icons/dumbbell?s=solid&f=classic).
+
+## Media
+
+* All images was downloaded from [pexels](https://www.pexels.com/).
+
+## Credits 
+
+Martina Terlevic
+
+* My fantastic mentor at Code Institute
+
+Ans also all awesome people att slack code institute community who are warm and helpful every time. 
+
+## Great sources
+
+https://www.w3schools.com/ 
+
+Image in top site looks in differns devices are made with:
+
+http://ami.responsivedesign.is/
+
+Best Regards 
+
+[back to top](#Strong-Gymnastic-Studios "Strong Gymnastic Studios")
 
 
 
