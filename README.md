@@ -45,7 +45,7 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 * [HTML](https://en.wikipedia.org/wiki/HTML)
 
-### Testing
+### List of testing
 
 * [Testing](#testing "Testing")
 * [Manual Testning](#manual-testing "Manual Testing")
@@ -208,7 +208,9 @@ Here is a list of issues discovered and how they were solved.
 * Solution: Fixed by using by media queries. 
 6. The circle image beside the form that is floated to left, didn't appear to the right as att wished. 
 * Solution: set the clear attribute to none. 
-7. Apart from these problems i have had a ton of small ones. It can be for example that contet not fall in the right place i wish for.
+7. The sign upp here link didn't work from classes.html page.
+* Solution: Added form section to classes.html page and the link was working. 
+8. Apart from these problems i have had a ton of small ones. It can be for example that contet not fall in the right place i wish for.
 * It has been solved with attribute of example: padding, margin, float, text-align.
 
 ### Unfixed bugs 
@@ -282,13 +284,13 @@ Martina Terlevic
 
 * My fantastic mentor at Code Institute
 
-Ans also all awesome people att slack code institute community who are warm and helpful every time. 
+And also all awesome people att slack code institute community who are warm and helpful every time. 
 
 ## Great sources
 
 https://www.w3schools.com/ 
 
-Image in top site looks in differns devices are made with:
+Image in top that present site in differns devices are made with:
 
 http://ami.responsivedesign.is/
 
