@@ -29,7 +29,7 @@ In the form there are a welcoming message to beginners to book a free trial.
 * [Classes](#classes "Classes")
 * [About us](#about-us "About us")
 * [Footer](#footer "Footer")
-* [Form Dump Page](#form-dump-page "Form Dump Page")
+* [Thank You Page](#thank-you-page "Thank You Page")
 
 
 ### UX/UI:
@@ -186,9 +186,9 @@ This section have 3 Tables of practice times.
 * The Footer has the same logo as the header to keep the feeling over the website. 
 * Contact information and links to social media. 
 
-## Form Dump Page 
+## Thank you page 
 
-The Form submittion page is this one [Form Dump](https://formdump.codeinstitute.net/). 
+![IMG](/assets/images/thankyoupage.jpg)
 
 
 ## Testing 
